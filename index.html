@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Mazutti</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" href="/assets/perfil.jpg" type="image/png">
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- Barra de navegação -->
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">Portfólio</a>
+            <ul class="flex space-x-4">
+                <li><a href="#sobre" class="nav-link hover:text-gray-300">Sobre</a></li>
+                <li><a href="#projetos" class="nav-link hover:text-gray-300">Projetos</a></li>
+                <li><a href="#contato" class="nav-link hover:text-gray-300">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção de introdução -->
+    <section id="sobre" class="container mx-auto py-8">
+        <div class="flex flex-col md:flex-row items-center justify-center mb-8">
+            <!-- Container da imagem -->
+            <div class="text-center mb-4 md:mb-0 md:mr-4 md:self-start">
+                <a href="https://github.com/MazuttiGuilherme" target="_blank" rel="noopener noreferrer">
+                    <div
+                        class="rounded-full overflow-hidden w-80 h-80 md:w-86 md:h-86 flex items-center justify-center bg-gray-200">
+                        <img src="/assets/maju&I.jpeg" alt="Descrição da Imagem" class="w-full h-full object-cover">
+                    </div>
+                </a>
+            </div>
+
+            <div class="text-center md:text-left">
+                <!-- Título -->
+                <h1 class="text-4xl font-bold mb-2">Olá, sou Guilherme Mazutti,</h1>
+                <h1 class="text-4xl font-bold mb-2">Desenvolvedor Frontend</h1>
+                <div class="flex justify-center md:justify-start mb-4">
+                    <i class="fab fa-git text-4xl text-gray-500 mx-2"></i>
+                    <i class="fab fa-html5 text-4xl text-red-500 mx-2"></i>
+                    <i class="fab fa-css3-alt text-4xl text-blue-500 mx-2"></i>
+                    <i class="fab fa-js text-4xl text-yellow-500 mx-2"></i>
+                    <i class="fab fa-angular text-4xl text-red-600 mx-2"></i>
+                    <i class="fab fa-react text-4xl text-blue-400 mx-2"></i>
+                    <i class="fab fa-node-js text-4xl text-green-400 mx-2"></i>
+                </div>
+                <div class="text-center md:text-left">
+                    <p class="text-lg text-gray-700">Formado em Comunicação Social com, mais de 10 anos de experiência
+                        no setor hoteleiro,
+                        me reinventei e hoje busco novos conhecimentos na área tecnológica. Apaixonado por linguagens de
+                        programação e novas tecnologias.
+                        Atualmente estou principalmente interessado em conquistar meu primeiro emprego como
+                        desenvolvedor frontend e me aperfeiçoar cada vez mais no estudo de HTML, CSS,
+                        Javascript e seus principais frameworks Angular e React.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Projetos -->
+        <section id="projetos" class="container mx-auto py-8">
+            <h2 class="text-2xl font-bold mb-4">Alguns Projetos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Projeto 1 -->
+                <div class="bg-white rounded-lg shadow-md p-6 h-full flex flex-col justify-between">
+                    <a href="https://nossapadoka.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/brunch.jpg" alt="Imagem do Projeto 1"
+                            class="w-full h-64 object-cover rounded-lg mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Nossa Padoka</h3>
+                            <p class="text-gray-700">Site de vendas de alimentos e bebidas de uma suposta padaria,
+                                com carrinho de compras e fechamento de pedido pelo WhatsApp do clientes.
+                            </p>
+                            <a href="https://nossapadoka.netlify.app/"
+                                class="block text-blue-500 mt-2 hover:underline">Ver mais</a>
+                        </div>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="bg-white rounded-lg shadow-md p-6 h-full flex flex-col justify-between">
+
+                    <a href="https://portal.guedder.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/simbolo_colorido.png" alt="Imagem do Projeto 2"
+                            class="w-full h-64 object-cover mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Portal Guedder</h3>
+                            <p class="text-gray-700">Plataforma de venda de ingressos de festas e eventos LGBTQIA+.
+                                Lá você fica por dentro de tudo que acontece perto de você e adquire o seu ingresso
+                                na hora.</p>
+                            <a href="https://portal.guedder.com/" class="block text-blue-500 mt-2 hover:underline">Ver
+                                mais</a>
+                        </div>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="bg-white rounded-lg shadow-md p-6 h-full flex flex-col justify-between">
+                    <a href="https://nutri-food.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/1.svg" alt="Imagem do Projeto 3" class="w-full h-auto object-cover mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Nutri Food</h3>
+                            <p class="text-gray-700">Catálogo completo com planos de refeições low carb deliciosas,
+                                nutritivas e saudáveis onde o cliente pode se cadastrar e ter acesso a sdiversos tipos
+                                de
+                                planos.</p>
+                            <a href="https://nutri-food.netlify.app/"
+                                class="block text-blue-500 mt-2 hover:underline">Ver
+                                mais</a>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato" class="container mx-auto py-8">
+            <h2 class="text-2xl font-bold mb-4">Contato</h2>
+            <div class="flex justify-center">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="text-gray-700 mb-4">Você pode entrar em contato comigo preenchendo o formulário ou
+                            através
+                            das minhas redes sociais.</p>
+                        <div class="flex justify-center md:justify-start">
+                            <a href="https://www.linkedin.com/in/guilherme-mazutti-5a654332/" target="_blank"
+                                rel="noopener noreferrer" class="text-gray-700 mx-2 hover:text-blue-500"><i
+                                    class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="https://github.com/MazuttiGuilherme" target="_blank" rel="noopener noreferrer"
+                                class="text-gray-700 mx-2 hover:text-blue-500"><i class="fab fa-github fa-2x"></i></a>
+                            <a href="mailto:mazuttimail@gmail.com" class="text-gray-700 mx-2 hover:text-blue-500"><i
+                                    class="far fa-envelope fa-2x"></i></a>
+                            <a href="hbnh  nttps://guilhermemazutti.netlify.app/" target="_blank"
+                                rel="noopener noreferrer" class="text-gray-700 mx-2 hover:text-blue-500"><i
+                                    class="fas fa-globe fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <form class="mt-4">
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 font-bold mb-2">Nome:</label>
+                                <input type="text" id="name" name="name"
+                                    class="w-full border-gray-300 rounded-md focus:outline-none focus:border-blue-500 px-4 py-2">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 font-bold mb-2">Email:</label>
+                                <input type="email" id="email" name="email"
+                                    class="w-full border-gray-300 rounded-md focus:outline-none focus:border-blue-500 px-4 py-2">
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="block text-gray-700 font-bold mb-2">Mensagem:</label>
+                                <textarea id="message" name="message" rows="4"
+                                    class="w-full border-gray-300 rounded-md focus:outline-none focus:border-blue-500 px-4 py-2"></textarea>
+                            </div>
+                            <button type="submit"
+                                class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Rodapé -->
+        <footer class="bg-gray-800 text-white p-4 text-center">
+            <p>&copy; 2024 Mazutti's Portfolio</p>
+        </footer>
+</body>
+
+</html>
