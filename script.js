@@ -20,3 +20,16 @@ document.querySelectorAll('.nav-link').forEach(anchor => {
         }
     });
 });
+
+function sendEmail() {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+
+    var emailContent = "Nome: " + name + "\n" +
+                       "Email: " + email + "\n" +
+                       "Mensagem: " + message;
+
+    window.location.href = "mailto:mazuttimail@gmail.com?subject=Contato%20do%20Site&body=" + emailContent;
+    alert("O e-mail foi enviado com sucesso!");
+}
